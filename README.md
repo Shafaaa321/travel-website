@@ -68,6 +68,7 @@ This travel website is designed with HTML and CSS to provide an optimized experi
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+
 ## Author(s)
 - **Name:** Shafaatu Hamza Abdullahi
 
