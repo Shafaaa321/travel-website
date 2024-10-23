@@ -1,0 +1,325 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family:"Urbanist" ;
+    overflow-x: hidden;
+}
+.Top{
+    width: 375px;
+    height: 473px;
+    top: -3px;
+}
+.one {
+    font-family: "Gilda Display";
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #25A59E;
+    line-height: 18.83px;
+    letter-spacing: 10%;
+    margin-top: 4px;
+}
+.menu {
+    width: 24px;
+    height: 24px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    color: #262626;
+    width: 375px;
+    height: 60px;
+}
+.nav {
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 16px;
+}
+.layout {
+    width: 375px;
+    height: 323px;
+    top: 150px;
+    gap: 0px;
+    opacity: 0px;
+    padding-right: 24px;
+    padding-left: 24px;
+    margin-left: -5px;
+}
+h1 {
+    font-family: "Gilda Display";
+    font-size: 52px;
+    font-weight: 400 ;
+    line-height: 61.2px;
+    text-align: center;
+}
+span {
+    color: #25A59E;
+}
+.blurry {
+    width: 400px;
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    transform: translateY(32%);   
+}
+.ellipse {
+    width: 300px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translateX(15%);
+    margin-top: 300px;
+}
+.pic {
+    width: 340px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin-top: 270px;
+    transform: translate(8%);
+}
+.find {
+    width: 375px;
+}
+.jet {
+    width: 335px;
+    height: 570px;
+    gap: 28px;
+    opacity: 0px;
+    margin-left: 30px
+}
+.find {
+    margin-left: 10px;
+}
+.two {
+    width: 335px;
+    height: 378px;
+    gap: 24px;
+    border: solid 2px;
+    margin-top: 25px;
+    color: #f2f2f2;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 24px;
+    padding-left: 12px;
+    margin-left: 20px;
+    ;
+}
+.two1 {
+    width: 320px;
+    height: 378px;
+    gap: 24px;
+    border: solid 2px;
+    margin-top: 25px;
+    color: #f2f2f2;
+    padding-top: 12px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    padding-left: 12px;
+    transform: translateX(-8%);   
+    margin-left: 15px;
+}
+.hmm p{
+    width: 271px;
+    height: 24px;
+    font-family: "Urbanist";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #262626;
+    margin-top: -3px;
+}
+.hmm {
+    display: flex;
+    gap: 8px;
+    height: 24px ;
+    margin-top: -15px;
+}
+.location {
+    width: 24px;
+    height: 24px;
+}
+.lo {
+    width: 335px;
+    height: 164px;
+    gap: 12px;
+}
+h2 {
+    font-family: "Gilda Display";
+    font-size: 40px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 60px;
+}
+p {
+    font-family: "Urbanist";
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    color: #595959;
+    margin-top: -10px;
+}   
+.yes {
+    font-family: "Gilda Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: center;
+}
+.why {
+    font-family: "Urbanist";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #595959;
+}
+.yo {
+    width: 335px;
+    height: 260px;
+    gap: 12px;
+    margin-left: 20px;
+}
+.chi {
+    font-family: "Gilda Display";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+}
+.loop{
+    width: 335px;
+    height: 257px;
+    padding-right:  20px;
+    padding-bottom:  32px;
+    padding-left:  20px;
+    gap: 40px;
+    opacity: 0px;
+    margin-top: 40px;
+    border: 2px solid #f2f2f2;
+    margin-left: 20px;
+}
+.sit {
+    width: 112px;
+    height: 23px;
+    gap: 12px;
+    opacity: 0px;
+    color: #25A59E;
+    text-align:right;
+    margin-left: 210px;
+}
+h4 {
+    display: inline-block;
+}
+.top-line {
+    background-color:#25A59E ;
+    width: 375px;
+    margin-top: -5px;
+    margin-left: -20px;
+    height: 4px;
+}
+.box {
+    background-color: #25A59E;
+    width: 335px;
+    height: 254px;
+    padding-top: 28px;
+    padding-right: 20px;
+    padding-bottom: 32px;
+    padding-left: 20px;
+    gap: 40px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.jo, .xo, .po {
+    color: #FFFFFF;
+}
+.man {
+    width: 335px;
+    height: 212px;
+    gap: 12px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.woman {
+    margin-left: 28px;
+}
+.otilo { 
+    font-family: "Gilda Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+}
+.rap {
+    font-family: "Urbanist";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+.shape {
+    margin-top: 150px;
+}
+.pic4 {
+    margin-left: -30px;
+    transform: translateY(-101%);
+}
+.three {
+    border: solid 2px;
+    padding-left: 30px;
+    color: #f2f2f2;
+    margin-top: 30px;
+}
+h3 {
+    color:#262626 ;
+    font-family: "Urbanist";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+}
+.rotate {
+    transform: rotate(-180deg);
+}
+.vid {
+    width: 375px;
+    height: 400px;
+    gap: 24px;
+    margin-top: -280px;
+    margin-left: 20px;
+}
+.rot {
+    font-family: "Gilda Display";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: center;
+}
+.last {
+    width: 375px;
+    height: 553px;
+    padding-top: 40px;
+    padding-bottom: 40px; 
+    gap: 42px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.pri {
+    margin-top: -10px;
+}
+.line {
+    margin-top: 30px;
+    width: 375px;
+    color: #D9D9D9;
+}
+.rat {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.xoxo {
+    display: inline;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 50px;
+}
