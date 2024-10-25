@@ -9,7 +9,7 @@ body {
     height: 473px;
     top: -3px;
 }
-.one {
+.cat {
     font-family: "Gilda Display";
     font-size: 16px;
     font-weight: 600;
@@ -325,12 +325,12 @@ a {
     color: #595959;
 }
 .wrapper ul {
-display: flex;
-justify-content: space-between;
-list-style: none;
-padding-left: 20px;
-padding-right: 20px;
-margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 40px;
 }
 .find {
     display: grid;
@@ -348,191 +348,214 @@ margin-bottom: 40px;
     margin-top: 60px;
     margin-left: 230px;
 }
-media only screen and (max-width:500px) {
-    .jet {
-        margin-top: -250px
-    }
+
+@media only screen and (max-width: 500px) {
+    .lo {
+    margin-top:-600px;
 }
+.yo h2 {
+    margin-left: 49px;
+    width: 260px;
+}
+.rot {
+    margin-left: 50px;
+    width: 280px;
+}
+.kit {
+    margin-left: 5px;
+    width: 350px;
+} 
+}
+
 @media only screen and (min-width: 1025px) {
-    .find {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .hit {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .nav {
-        display: grid;
-    }
-    .menu{
-        margin-left: 1200px;
-        margin-top: -50px;
-    }
-    #Top {
-        width: 1440px;
+.find {
+    grid-template-columns: repeat(3, 1fr);
+}
+.hit {
+    grid-template-columns: repeat(3, 1fr);
+}
+.nav {
+    display: grid;
+}
+.menu{
+    margin-left: 1170px;
+    margin-top: -55px;
+}
+#Top {
+    width: 1440px;
     height: 1070px;
-    }
-    .layout h1 {
-        text-align: center;
-        font-size: 170px;
-        font-family: "Gilda Display";
-        font-size: 170px;
-        font-weight: 400;
-        width: 1340px;
-        line-height: 170px;
-        margin-top: -50px;
-    }
-    .image-container {
-        width: 700px;
-        margin-bottom: 200px;
-        margin-left: 180px;
-        margin-top: 500px;
-    }
-    .blurry {
-        transform: translateY(55%);
-        margin-left: 220px;
-        width: 782px;
-        height: 530px;
-    }
-    .ellipse {
-        width: 725px;
-        margin-top: 446px;
-        margin-left: 150px;
-    }
-    .pic {
-        width: 850px;
-        margin-top: 358px;
-        margin-left: 125px;
-    }
-    .lo h2 {
-        font-family: "Gilda Display";
-        font-size: 72px;
-        font-weight: 400;
-        line-height: 84px;
-        text-align: center;
-        width: 1162px;
-        margin-top: -150px;
-    }
-    .lo p {
-        font-family: "Urbanist";
-        font-size: 24px;
-        font-weight: 500;
-        line-height: 24px;
-        text-align: left;
-        width: 599px;
-        margin-left: 315px;
-        margin-top: -50px;
-    }
-    .yes {
-font-family: "Gilda Display";
-font-size: 72px;
-font-weight: 400;
-line-height: 84px;
-text-align: center;
-width: 670px;
-height: 84px;
-margin-left: 210px;
-    }
-    .why {
-font-family: "Urbanist";
-font-size: 18px;
-font-weight: 500;
-line-height: 32px;
-text-align: center;
-width: 879px;
-height: 96px;
-margin-left: 120px;
-margin-top: -50px;
-    }
-    .man {
-        width: 534px;
-height: 292px;
-gap: 48px;
-margin-top: 200px;
-    }
-    .otilo {
-        width: 534px;
-height: 168px;
-font-family: "Gilda Display";
-font-size: 72px;
-font-weight: 400;
-line-height: 84px;
-text-align: left;
-    }
-    .rap {
-        width: 534px;
-height: 96px;
-font-family: "Urbanist";
-font-size: 18px;
-font-weight: 500;
-line-height: 32px;
-text-align: left;
-margin-top: -20px;
-    }
-    .woman {
-        width: 640px;
-height: 485px;
-    }
-    .shape {
-        width: 542px;
-height: 239px;
-top: 246px;
-left: 86px;
-margin-left: 600px;
-margin-top: -100px;
-    }
-    .pic4 {
-        width: 658px;
-height: 485px;
-margin-left: 500px;
-    }
-    .vid {
-        width: 1440px;
-height: 1016px;
-top: 3889px;
-padding-top: 100px;
-padding-bottom: 100px;
-gap: 48px;
-    }
-    .rot {
-        width: 680px;
-height: 168px;
-font-family: "Gilda Display";
-font-size: 72px;
-font-weight: 400;
-line-height: 84px;
-text-align: center;
-margin-left: 250px;
-    }
-    .last {
-        width: 1440px;
-height: 567px;
-top: 4905px;
-padding-top: 48px;
- padding-bottom: 100px;
-gap: 80px;
-    }
-    .cat {
-        width: 91px;
-height: 33px;
-font-family: "Gilda Display";
-font-size: 28px;
-font-weight: 400;
-line-height: 32.96px;
-letter-spacing: 0.1em;
-text-align: left;
-margin-top: 20px;
-margin-left: 25px;
-color: #25A59E;
-    }
-    .kit {
-font-family: "Gilda Display";
-font-size: 72px;
-font-weight: 400;
-line-height: 84px;
-text-align: center;
-width: 743px;
-height: 84px;
-    }
+}
+.layout h1 {
+    text-align: center;
+    font-size: 170px;
+    font-family: "Gilda Display";
+    font-size: 170px;
+    font-weight: 400;
+    width: 1300px;
+    line-height: 170px;
+    margin-top: -30px;
+}
+.image-container {
+    width: 700px;
+    margin-bottom: 200px;
+    margin-left: 180px;
+    margin-top: 500px;
+}
+.blurry {
+    transform: translateY(55%);
+    margin-left: 220px;
+    width: 782px;
+    height: 530px;
+}
+.ellipse {
+    width: 720px;
+    margin-top: 446px;
+    margin-left: 150px;
+}
+.pic {
+    width: 840px;
+    margin-top: 361px;
+    margin-left: 125px;
+}
+.two1 {
+    width: 320px;
+    height: 400px;
+}
+.box {
+    width: 350px;
+    height: 235px;
+    margin-top: 38px;
+}
+.lo h2 {
+    font-family: "Gilda Display";
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 84px;
+    text-align: center;
+    width: 1162px;
+    margin-top: -150px;
+}
+.lo p {
+    font-family: "Urbanist";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    width: 599px;
+    margin-left: 315px;
+    margin-top: -50px;
+}
+.yes {
+    font-family: "Gilda Display";
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 84px;
+    text-align: center;
+    width: 670px;
+    height: 84px;
+    margin-left: 210px;
+}
+.why {
+    font-family: "Urbanist";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    width: 879px;
+    height: 96px;
+    margin-left: 120px;
+    margin-top: -50px;
+}
+.man {
+    width: 534px;
+    height: 292px;
+    gap: 48px;
+    margin-top: 150px;
+}
+.otilo {
+    width: 534px;
+    height: 168px;
+    font-family: "Gilda Display";
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 84px;
+    text-align: left;
+}
+.rap {
+    width: 534px;
+    height: 86px;
+    font-family: "Urbanist";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+}
+.woman {
+    width: 640px;
+    height: 485px;
+}
+.shape {
+    width: 542px;
+    height: 239px;
+    top: 246px;
+    left: 86px;
+    margin-left: 600px;
+    margin-top: -100px;
+}
+.pic4 {
+    width: 658px;
+    height: 485px;
+    margin-left: 500px;
+}
+.vid {
+    width: 1440px;
+    height: 1016px;
+    top: 3889px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    gap: 48px;
+    margin-top: -300px;
+}
+.rot {
+    width: 680px;
+    height: 168px;
+    font-family: "Gilda Display";
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 84px;
+    text-align: center;
+    margin-left: 250px;
+}
+.last {
+    width: 1440px;
+    height: 567px;
+    top: 4905px;
+    padding-top: 48px;
+    padding-bottom: 100px;
+    gap: 80px;
+}
+.cat {
+    width: 91px;
+    height: 33px;
+    font-family: "Gilda Display";
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.96px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 25px;
+    color: #25A59E;
+}
+.kit {
+    font-family: "Gilda Display";
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 84px;
+    text-align: center;
+    width: 743px;
+    height: 84px;
+}
 .pri {
     margin-left: 900px;
     margin-top: 10px;
@@ -544,22 +567,34 @@ height: 84px;
 }
 .rat {
     width: 313px;
-height: 64px;
-font-family: "Urbanist";
-font-size: 18px;
-font-weight: 500;
-line-height: 32px;
-text-align: left;
-margin-left: 30px;
+    height: 64px;
+    font-family: "Urbanist";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    margin-left: 30px;
 }
 .icons {
     margin-left: 25px;
+    gap: 32px;
 }
 .wrapper {
-    justify-content: flex-end;
     margin-top: -50px;
-    margin-left: 500px;
+    margin-left: 400px;
+}
+.footer ul {
+    gap: 0px;
+}
+.footer {
+    width: 700px;
+    margin-left: 400px;
+    gap: 10px;
+}
+.social {
+    margin-left: -400px;
 }
 
+  
 }
 
