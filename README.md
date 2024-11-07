@@ -32,7 +32,7 @@ User-Friendly Interface: Create an intuitive and visually appealing design that 
 Comparative Tools: Offer tools that allow users to compare flights, accommodations, and activities side by side, helping them find the best options easily.
 
 ## Live Demo
-Check out the live demo of the project: https://shafaaa321.github.io/travelwebsite/
+Check out the live demo of the project: https://travel-website-yr3h.onrender.com/
 
 ## Features
 Personalized Travel Recommendations: Tailored suggestions based on user preferences, travel history, and budget.
